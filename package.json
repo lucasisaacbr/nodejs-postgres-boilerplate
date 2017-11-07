@@ -1,0 +1,28 @@
+{
+  "name": "postgres-node-boilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cfenv": "^1.0.4",
+    "consolidate": "^0.14.5",
+    "cookie-parser": "*",
+    "cookie-session": "^2.0.0-beta.1",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.13.4",
+    "express-session": "*",
+    "passport": "*",
+    "passport-idaas-openidconnect": "^1.1.2",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "pg": "^7.4.0"
+  },
+  "repository": {},
+  "engines": {
+    "node": "6.x"
+  }
+}

@@ -1,0 +1,5 @@
+.idea/
+.idea/inspectionProfiles/
+client/
+server/helpers/
+node_modules/

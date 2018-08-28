@@ -10,10 +10,11 @@
                 return new Promise(function (resolve, reject) {
                     db_config.pool().query(query, (err, data) => {
                         if(err){
+                            db_config.client().end();
                             reject(err);
                         }
-                        resolve(data);
                         db_config.client().end();
+                        resolve(data);
                     });
                 });
             }
